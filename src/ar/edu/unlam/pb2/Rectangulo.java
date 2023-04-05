@@ -13,7 +13,11 @@ public class Rectangulo {
 	public Double getPerimetro() {
 		return this.alto * 2 + this.ancho * 2;
 	}
-
+	
+	public Double getArea() {
+		return this.alto * this.ancho;
+	}
+	
 	@Override
 	public String toString() {
 		return "Rectangulo [ancho=" + ancho + ", alto=" + alto + "]";
